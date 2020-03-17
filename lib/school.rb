@@ -11,6 +11,7 @@ class School
     roster[grade_level] << new_student
   end 
   
+
   def grade(grade)
     @roster[grade] 
   end 
@@ -20,4 +21,6 @@ class School
      student.sort!
    end 
  end 
+ 
+
 end 
